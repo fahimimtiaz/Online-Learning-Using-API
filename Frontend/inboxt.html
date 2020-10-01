@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inbox</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<script type="text/javascript" src="jquery-3.5.1.js"></script>
+	<script type="text/javascript" src="login.js"></script>
+	<script type="text/javascript" src="inbox.js"></script>
+
+	<meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="#" />
+
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Pogo Slider CSS -->
+    <link rel="stylesheet" href="css/pogo-slider.min.css" />
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css" />
+</head>
+<body id="home" data-spy="scroll" data-target="#navbar-wd" data-offset="98">
+
+	<header class="top-header">
+        <nav class="navbar header-nav navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="image"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
+                    <ul class="navbar-nav">
+                        <li><a class="nav-link active" href="index.html">Home</a></li>
+                        
+                        <li><button class="btn btn-default"><a  href="TeacherDash.html">Dashboard</a></button></li>
+                       
+                        <li><a class="nav-link" href="login.html">Log Out</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+    <br><br><br>
+
+    <div class="section layout_padding padding_bottom-0">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="full">
+                    <div class="heading_main text_align_center">
+                        <h2><span>New Message</span></h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
+
+
+<input type="text" placeholder="Enter Receiver Name" id="rcvName" required>
+<br><br>
+<textarea id="theText" rows="4" cols="35" placeholder="Type Message Here"></textarea>
+            
+            <br>
+<input type="submit" value="Send" class="btn btn-default" id="btnSendMsg" />
+  <br>
+<div align="center">
+    <table border="1" id="head">
+        <thead>
+            <tr>
+              
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+</div>
+
+</body>
+</html>
